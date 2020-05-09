@@ -1,0 +1,335 @@
+body,
+html {
+  font-family: "P22 Mackinac Pro", sans-serif;
+  color: #152934;
+  background: rgba(248, 238, 239, 1);
+  text-shadow: 0.25px 0.25px 0px rgba(21, 41, 52, 0.5);
+}
+
+a {
+  text-decoration: none;
+  color: #152934;
+}
+
+a:hover {
+}
+
+.main-header {
+  margin-left: 5%;
+  width: 57.6%;
+  font-size: 1.34em;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 180%;
+  box-sizing: border-box;
+  animation: fadeInUp 1.3s ease;
+
+  animation-delay: 0.45s;
+  animation-fill-mode: both;
+}
+
+.main-header-line {
+  margin-left: 5%;
+  border-top: 1px solid #152934;
+  width: 57.6%;
+  margin-top: 19%;
+  display: inline-block;
+  vertical-align: top;
+  height: 1px;
+  animation: fadeInUpLine 1s ease;
+  animation-delay: 0.3s;
+  animation-fill-mode: both;
+}
+
+a {
+  font-weight: 700;
+}
+
+.name {
+  font-size: 2.1em;
+  letter-spacing: -0.02em;
+  word-spacing: 0.1em;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 0.24em;
+  font-style: italic;
+}
+
+.main-header:hover {
+  cursor: default;
+}
+
+.side-header {
+  display: inline-block;
+  width: 28.83%;
+  font-size: 1.34em;
+  text-shadow: 0.5px 0.5px 0px rgba(0, 0, 0, 0.2);
+  margin-left: 3.5%;
+
+  animation: fadeInUp 1.3s ease;
+  margin-top: 0.37em;
+  animation-delay: 0.65s;
+  animation-fill-mode: both;
+}
+
+.side-header-line {
+  margin-top: 19%;
+  display: inline-block;
+  width: 28.83%;
+  border-top: 1px solid #152934;
+  font-size: 19.5px;
+  text-shadow: 0.5px 0.5px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 19%;
+
+  padding-top: 1.6em;
+  margin-left: 3.75%;
+  animation: fadeInUpLine 1s ease;
+  animation-delay: 0.3s;
+  animation-fill-mode: both;
+}
+
+.side-header-element {
+  display: block;
+  text-align: right;
+}
+
+.side-header a {
+  display: inline-block;
+  width: auto;
+  line-height: 180%;
+}
+
+.container {
+  height: 100vh;
+}
+
+.cursor {
+  position: fixed;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  transform: translateX(-50%) translateY(-00%);
+  pointer-events: none;
+  border: 0.85px solid #152934;
+  z-index: 100001;
+  height: 48px;
+  width: 48px;
+  transition: height 0.7s ease, width 0.7s ease, border 0.7s ease;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fff;
+  border: 1px solid #152934;
+  transition: 0.5s ease;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+}
+
+.footer {
+  margin: 5%;
+  width: 90%;
+  border-top: 1px solid #152934;
+  border-bottom: 1px solid #152934;
+  display: block;
+  height: 4em;
+}
+
+.left-footer {
+  display: inline-block;
+  width: auto;
+  height: 2em;
+  line-height: 4em;
+}
+
+.left-footer:hover {
+  cursor: default;
+}
+
+.right-footer {
+  display: inline-block;
+  width: 35.8%;
+  float: right;
+  height: 100%;
+  padding-left: 1.25em;
+  box-sizing: border-box;
+  color: #f8eeef;
+  border-left: 1px solid #152934;
+}
+
+.right-footer a {
+  height: 2em;
+  font-weight: normal;
+  line-height: 4em;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  opacity: 0;
+  width: 160px;
+  background: #f8eeef;
+  border: 0.85px solid #152934;
+  color: #152934;
+  text-align: left;
+  line-height: 1.2em;
+  font-size: 0.8em;
+  padding: 5px 15px;
+  border-radius: 6px;
+  margin-left: 8px;
+  margin-top: -15px;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  transition: 0.25s ease-in-out;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  opacity: 1;
+}
+
+.faq {
+  margin: 5%;
+  width: 57.6%;
+}
+
+.who {
+  margin-top: 0.5%;
+  margin-bottom: 10%;
+}
+
+.faq-title {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2.1em;
+  line-height: 110%;
+  letter-spacing: -2%;
+  margin-left: 0%;
+  margin-top: 0.5em;
+  z-index: 999;
+}
+
+.faq-body {
+  margin-left: 0%;
+  width: 50%;
+  padding-top: 2.5em;
+  padding-bottom: 0.25em;
+  line-height: 195%;
+  border-top: 1px solid #152934;
+  margin-top: 5em;
+  transition: 0.4s ease-in-out;
+  display: inline-block;
+  font-size: 1.12em;
+  box-shadow: 0px 0 0 #152934 inset;
+}
+
+.faq-body h2 {
+  margin-block-start: 0em;
+  margin-block-end: 0.9em;
+  font-style: italic;
+  font-size: 1.64em;
+}
+
+.faq-body-first {
+  border-top: 1px solid #152934;
+  padding-top: 1.6em;
+}
+
+.w {
+  margin-bottom: 20%;
+}
+
+.w:hover {
+  cursor: default;
+}
+
+.faq-image {
+  width: 30%;
+  margin-left: 10%;
+  margin-top: 2em;
+  position: relative;
+  border: 1px solid #152934;
+  z-index: 0;
+  transition: 0.8s ease-in-out;
+}
+
+.faq-image img {
+  width: 100%;
+  box-shadow: 24px 24px 50px rgba(0, 0, 30, 0.08);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeInUpLine {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.image-stack {
+  width: 30%;
+  position: sticky;
+  display: inline-block;
+}
+
+.image-stack img {
+  width: 100%;
+  border: 1px solid #152934;
+}
+
+.i1 {
+  top: 25px;
+}
+
+.i2 {
+  top: 55px;
+  margin-left: 30px;
+}
+
+.i3 {
+  top: 85px;
+  margin-left: 60px;
+}
